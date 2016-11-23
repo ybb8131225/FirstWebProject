@@ -17,6 +17,7 @@ body{
 	float: left;
 	width: 500px;
 	margin: 0 0 0 50px;
+	/* line-height设置为父元素的height可以垂直居中 */
 	line-height: 28px;
 }
 .right_title{
@@ -62,25 +63,183 @@ body{
 	width: 222px;
 	height: 61px;
 	background: url(http://www1.pclady.com.cn/global/2016/images/ladyIndex/indexPic.png);
+	/* 设置背景图片的启始位置 */
 	background-position: -80px -730px;
 	margin: 0 auto 30px auto;
 	
 }
 .top_content{
 	width: 1120px;
+	margin: 0 auto;
+	padding-top: 10px;
+	position: relative;
+
 }
 .content_tab{
 	background-color: black;
 	height: 45px;
 	width: 100%;
-	margin: 0 50px;
+	margin: 0;
+	padding: 0;
+	
 }
 .content_tab a{
 	position: relative;
 	color: #fff;
+	/* 规定元素中的文本的水平对齐方式 */
 	text-align: center;
 	margin: 5px 50px 5px 30px;
 	line-height: 45px;
 	text-decoration: none;
 	font-family: "Microsoft YaHei", tahoma, arial, 宋体;
+	
 }
+.content_tab_search{
+	width: 17px;
+	height: 17px;
+	float: right;
+	color: #fff;
+	margin-right: 20px;
+	margin-top: 15px;
+	background: url(http://www1.pclady.com.cn/global/2016/images/ladyIndex/indexPic.png);
+	background-position: 0 -380px;
+
+}
+.sub_content{
+	margin: 0;
+	padding: 0;
+	height: 64px;
+	width: 100%;
+}
+.sub_content ul{
+	font-family: "Microsoft YaHei", tahoma, arial, 宋体;
+	color: #666;
+	font-size: 16px;
+	margin: 0;
+	line-height: 64px;
+
+}
+.sub_content li{
+	list-style: none;
+	float: left;
+	padding-right: 34px;
+	
+}
+#sub_content_first{
+	color: #000;
+	font-size: 24px;
+	margin-right: 20px;
+}
+.more_content{
+	margin-bottom: 40px;
+}
+.more_content_main{
+	height: 160px;
+	width: 100%;
+	border: solid 8px #eef1f1;
+	font-family: "Microsoft YaHei", tahoma, arial, 宋体;
+	color: #000;
+	font-size: 14px;
+}
+.more_content_main_dog{
+	float: left;
+	width: 400px;
+	padding-left: 30px;
+}
+.more_content_main_cat{
+	float: left;
+	width: 275px;
+	padding-left: 40px;
+}
+.more_content_main_small{
+	float: left;
+	width: 260px;
+	padding-left: 50px;
+}
+.more_content_main_dog div{
+	background: url(http://www1.pclady.com.cn/global/2016/images_i/channel_pet/pet.png);
+	background-position: -408px 0px;
+	width: 43px;
+	height: 36px;
+}
+.more_content_main_dog span{
+	display: block;
+	width: 43px;
+	text-align: center;
+}
+.more_content_main_dog dt{
+	float: left;
+	width: 43px;
+}
+.more_content_main_dog dd{
+	width: 100%;
+	height: 28px;
+
+}
+.more_content_main_dog dd a{
+	float: left;
+	padding: 0 8px;
+	line-height: 28px;
+}
+.more_content_main_cat div{
+	background: url(http://www1.pclady.com.cn/global/2016/images_i/channel_pet/pet.png);
+	background-position: -464px 0px;
+	width: 20px;
+	height: 36px;
+	margin-left: 10px;
+}
+.more_content_main_cat span{
+	display: block;
+	width: 43px;
+	text-align: center;
+}
+.more_content_main_cat dt{
+	float: left;
+	width: 43px;
+}
+.more_content_main_cat dd{
+	width: 100%;
+	height: 28px;
+
+}
+.more_content_main_cat dd a{
+	float: left;
+	padding: 0 8px;
+	line-height: 28px;
+}
+.more_content_main_small div{
+	background: url(http://www1.pclady.com.cn/global/2016/images_i/channel_pet/pet.png);
+	background-position: -496px 0px;
+	width: 26px;
+	height: 36px;
+	margin-left: 10px;
+}
+.more_content_main_small span{
+	display: block;
+	width: 43px;
+	text-align: center;
+}
+.more_content_main_small dt{
+	float: left;
+	width: 43px;
+}
+.more_content_main_small dd{
+	width: 100%;
+	height: 28px;
+
+}
+.more_content_main_small dd a{
+	float: left;
+	padding: 0 8px;
+	line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
